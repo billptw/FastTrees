@@ -1,9 +1,6 @@
 # FastTrees
 
-This repository contains the code adapted from for word-level language model and unsupervised parsing experiments in 
-[Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks](https://arxiv.org/abs/1810.09536) paper, 
-originally forked from the 
-[LSTM and QRNN Language Model Toolkit for PyTorch](https://github.com/salesforce/awd-lstm-lm).
+This repository contains the experimental code supporting the [FastTrees](https://arxiv.org/abs/2111.14031) paper by [Bill Pung](https://scholar.google.com/citations?user=JwroV7YAAAAJ&hl=en).
 
 
 ## Software Requirements
@@ -38,3 +35,9 @@ and for parsing we need [Penn Treebank Parsed](https://catalog.ldc.upenn.edu/LDC
   	+ Test Unsupervised Parsing
     ```python test_phrase_grammar.py --cuda```
     
+    
+## Source
+Code is partly adapted from for word-level language model and unsupervised parsing experiments in 
+[Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks](https://arxiv.org/abs/1810.09536) paper, 
+originally forked from the 
+[LSTM and QRNN Language Model Toolkit for PyTorch](https://github.com/salesforce/awd-lstm-lm).
